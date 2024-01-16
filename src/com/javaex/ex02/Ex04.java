@@ -24,7 +24,6 @@ public class Ex04 {
 		OutputStreamWriter osw = new OutputStreamWriter(out);
 		BufferedWriter bw = new BufferedWriter(osw);
 		
-		
 		while(true) {
 			String str = br.readLine();
 			
@@ -34,6 +33,7 @@ public class Ex04 {
 			bw.write(str);
 			bw.newLine();
 		}
+		
 		bw.close();
 		br.close();
 		}
